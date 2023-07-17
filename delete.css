@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    box-sizing: border-box;
+    outline: none;
+    transition: 0.3s;
+    font-family: "Courier New", Courier, monospace;
+  }
+
+  body {
+    background: linear-gradient(#253659, #243b55);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    /* padding-top: 100px; */
+  }
+
+  form {
+    padding: 20px;
+    margin: auto;
+  }
+
+  label {
+    color: white;
+    display: block;
+    font-size: large;
+    padding: 10px 10px 10px 0px;
+  }
+
+  input{
+    margin-bottom: 20px;
+    width: 80%;
+    padding: 5px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 5px 5px 10px 1px rgb(28, 22, 58);
+    height: 35px;
+  }
+
+  button {
+    padding: 5px 10px;
+    background-color: #243b55;
+    color: aqua;
+    border: 1px solid aqua;
+    border-radius: 15px;
+  }
+
+  button:hover {
+    background-color: aqua;
+    color: #243b55;
+    border-radius: 5px;
+  }

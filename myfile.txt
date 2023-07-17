@@ -1,0 +1,1 @@
+This is a file that i will read using php.

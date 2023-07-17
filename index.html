@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>Request Form</h1>
+        <form action="upload.php" method="post">
+            <div class="title-container padd">
+                <label for="title" id="title-label">title</label>
+            <input type="text" name="title" id="title" class="title">
+            </div>
+            <div class="desc-container padd">
+                <label for="desc">Description</label>
+                <input type="text" name="desc" id="desc" class="desc">
+            </div>
+            <div class="name-container padd">
+                <label for="name">Your name</label>
+                <input type="text" name="name" id="name" class="name">
+            </div>
+            <div class="select-container padd">
+                <label for="category">Choose Category</label>
+                <select name="category" id="select" class="select">
+                    <option value="bollywood">Bollywood</option>
+                    <option value="anime">Anime</option>
+                    <option value="hollywood">Hollywood</option>
+                    <option value="drama">Drama</option>
+                </select>
+            </div>
+            <div class="submit-button">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
